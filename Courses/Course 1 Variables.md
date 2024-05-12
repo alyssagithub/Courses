@@ -97,7 +97,8 @@ print(MyFirstGlobal) -- Outputs: Hello, world!
 We have now successfully learned global variables, we will move onto our 3rd and final explanation.
 ## 3. Shared Variables
 A shared variable is closest to the global variables, but you will be able to access them across 2 different scripts.
-There are 2 ways to access & create a shared variable, using `_G` and using `shared`, I will be showing you the first method, but if you'd like to try to use the second, you can simply replace all `_G` usage in the code with `shared`.
+<br>There are 2 ways to access & create a shared variable, using `_G` and using `shared`, I will be showing you the first method, but if you'd like to try to use the second, you can simply replace all `_G` usage in the code with `shared`.
+
 Let's create our first shared variable, we'll need 2 scripts to test this one properly so make sure you're prepared.
 
 In our first script, we're going to want to use this code:
@@ -116,4 +117,4 @@ Create & open a script in Roblox Studio, then create a `local` variable with a n
 <br>If it has printed, you have successfully completed this course and are ready to move onto the next, if it didn't print correctly, errored, or didn't run you may want to read this course again.
 
 For any issues, questions, or concerns, feel free to join the [Roblox Studio Community Discord Server](https://discord.gg/robloxstudio) or the [HiddenDevs Discord Server](https://discord.gg/hd) and make use of their #scripting-help or #code-help discord channels.
-If this course did not provide an understandable explanation, feel free to read or watch other sources such as the [Roblox Documentation Variable Tutorial](https://create.roblox.com/docs/luau/variables) or [TheDevKing's Youtube Video on Variables](https://www.youtube.com/watch?v=0Dc2dCYoxxs).
+<br>If this course did not provide an understandable explanation, feel free to read or watch other sources such as the [Roblox Documentation Variable Tutorial](https://create.roblox.com/docs/luau/variables) or [TheDevKing's Youtube Video on Variables](https://www.youtube.com/watch?v=0Dc2dCYoxxs).
