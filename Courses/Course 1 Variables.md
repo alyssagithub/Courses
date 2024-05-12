@@ -8,6 +8,7 @@ A variable is essentially a name attached to a value, there are 3 baseline ways 
 **Note:** Before we get into scripting, in order to see the output messages caused by `print`, you will need to go into the "VIEW" tab in Roblox Studio (located around the top left), and then click on the "Output" button to enable the output.
 
 ## 1. Local Variables
+[comment]: <> (TODO: provide a better explanation on "scopes")
 A local variable is a variable that can only be accessed in the scope it was defined in, for example.
 If we make use of `do end`, we can create a new scope, as such:
 ```lua
