@@ -13,8 +13,9 @@ A variable is essentially a name attached to a value, there are 3 baseline ways 
 - **Define** (in programming) means to create a variable
 
 ## 1. Local Variables
-A local variable is a variable that can only be accessed in the [scope](https://create.roblox.com/docs/luau/scope) it was defined in.<br>
-First, let's begin constructing a local variable, we'll start off with the `local` keyword
+A local variable is a variable that can only be accessed in the [scope](https://create.roblox.com/docs/luau/scope) it was defined in.
+<br>It is most common, and best to use local variables instead of global & shared variables whenever possible, as they are faster and take up less memory.
+<br>First, let's begin constructing a local variable, we'll start off with the `local` keyword
 ```lua
 local
 ```
