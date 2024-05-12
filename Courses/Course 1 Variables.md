@@ -1,7 +1,7 @@
 # Course #1: Variables
 - Level: Beginner
 - Sections: Local Variables, Global Variables, Shared Variables
-- End learning task: Define a variable and print it
+- Minimum Requirement: Must be able to insert/create a script in Roblox Studio
 
 A variable is essentially a name attached to a value, there are 3 baseline ways to define a variable which is what this course will be explaining.
 
