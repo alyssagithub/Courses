@@ -9,6 +9,7 @@ A variable is essentially a name attached to a value, there are 3 baseline ways 
 
 ## 1. Local Variables
 [comment]: <> (TODO: provide a better explanation on "scopes")
+[comment]: <> (TODO: clarify that using `do end` isnt necessary to have a variable)
 A local variable is a variable that can only be accessed in the scope it was defined in, for example.
 If we make use of `do end`, we can create a new scope, as such:
 ```lua
