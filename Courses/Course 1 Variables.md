@@ -10,6 +10,7 @@ A variable is essentially a name attached to a value, there are 3 baseline ways 
 ## Word Contexts
 - **Values** are [strings](https://create.roblox.com/docs/luau/strings) ("A String"), [numbers](https://create.roblox.com/docs/luau/numbers) (1234), [booleans](https://create.roblox.com/docs/luau/booleans) (true/false), [data types](https://create.roblox.com/docs/reference/engine/datatypes) and more.
 - **Scopes** are defined [here](https://create.roblox.com/docs/luau/scope).
+- **Define** (in programming) means to create a variable
 
 ## 1. Local Variables
 A local variable is a variable that can only be accessed in the [scope](https://create.roblox.com/docs/luau/scope) it was defined in.<br>
