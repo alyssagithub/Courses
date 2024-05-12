@@ -66,7 +66,7 @@ end
 print(MyFirstVariable) -- Outputs: nil
 ```
 As you can see, when a variable is accessed outside the scope it was defined in, it will have no value, which is why it's `nil`.
-The easiest way to know where a variable is located in a scope is to look at where the ends are placed; any code past any `end` will most likely be outside that given scope.
+The easiest way to know where a variable is located in a scope is to look at where endings are placed, such as `end` or `until`; any code past any `end` will most likely be outside that given scope.
 
 A feature of all variables, not just local, is being able to define multiple variables at once using commas.
 ```lua
