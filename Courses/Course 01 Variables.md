@@ -2,7 +2,7 @@
 - Level: Beginner
 - Sections: Local Variables, Global Variables, and Shared Variables
 - Minimum Requirement: Must be able to insert a script in Roblox Studio
-- Average Reading Time: ~4 Minutes
+- Average Reading Time: ~5 Minutes
 
 A variable is essentially a name attached to a value. There are three baseline ways to define a variable, which is what this course will be explaining.
 
@@ -16,7 +16,8 @@ A variable is essentially a name attached to a value. There are three baseline w
 ## 1. Local Variables
 A local variable is a variable that can only be accessed in the [scope](https://create.roblox.com/docs/luau/scope) it was defined in.
 <br>It is most common and best to use local variables instead of global and shared variables whenever possible, as they are faster and take up less memory.
-<br>First, let's begin constructing a local variable. We'll start with the `local` keyword.
+### Creation
+First, let's begin constructing a local variable. We'll start with the `local` keyword.
 ```lua
 local
 ```
@@ -24,7 +25,19 @@ Next, we will need to give our local variable a name. Let's do `MyFirstVariable`
 ```lua
 local MyFirstVariable
 ```
-Then, we should add an `=` sign to begin assigning it a value.
+Let's make sure we know what names are appropriate for variables, and what names arent.
+```lua
+-- Note: Using two hyphens (--) before text will create a comment, which will not be seen when the code is running.
+local MyFirstVariable -- Good ✅
+local _MyFirstVariable -- Good ✅
+local 1MyFirstVariable -- Bad ❌, can't have numbers at the start of a variable name.
+local 🔥MyFirstVariable -- Bad ❌, can't have non-UTF8 characters in a variable name.
+local MyFirstVariable1234 -- Good ✅
+local if -- Bad ❌, can't have a variable name be a syntax keyword.
+-- Note: The easiest way to tell if a word is a keyword is by seeing if their color differs from other variable names.
+```
+Now that we have a general idea of what variable names are good, and which are bad, let's continue with the course.
+<br>To begin assigning a value, we'll need to use the `=` sign.
 ```lua
 local MyFirstVariable =
 ```
@@ -32,12 +45,34 @@ Now, we'll need to assign it a value. We'll use the string "Hello, world!" in th
 ```lua
 local MyFirstVariable = "Hello, world!"
 ```
-And there we have it—our first variable. Let's use it in print to see what we get from it.
+And there we have it—our first variable. Let's print it to see what we get from it.
 ```lua
 local MyFirstVariable = "Hello, world!"
 print(MyFirstVariable) -- Outputs: Hello, world!
 ```
-We have now created and used our first variable. Next up, we'll learn how different scopes affect local variables.
+We have now created and used our first variable. Let's try to change it's value now.
+We can do this by simply using the variable name, the `=` sign, then the new value like how we did when we defined them.
+```lua
+local MyFirstVariable = "Hello, world!"
+print(MyFirstVariable)  -- Outputs: Hello, world!
+
+MyFirstVariable = "Goodbye, world!"
+print(MyFirstVariable)  -- Outputs: Goodbye, world!
+```
+You should note that setting a local variable's value like this will not turn it into a global, unless you set it outside of the scope, which would count as defining it.
+<br>Also, if you place a `local` before changing the variable, it will count as re-defining the variable, so it sometimes may give the same results, but it won't be the same thing.
+```lua
+local MyFirstVariable = "Hello, world!"
+print(MyFirstVariable) -- Outputs: Hello, world!
+
+MyFirstVariable = "Goodbye, world!" -- Good ✅
+print(MyFirstVariable) -- Outputs: Goodbye, world!
+
+local MyFirstVariable = "Goodbye, world!" -- Bad ❌
+print(MyFirstVariable) -- Outputs: Goodbye, world!
+```
+Now that we understand local variables a bit more, let's get started with understanding how local variables act under different scopes.
+### Scopes
 First up, we'll create a [scope](https://create.roblox.com/docs/luau/scope) by using `do end`
 ```lua
 do
@@ -66,7 +101,7 @@ end
 print(MyFirstVariable) -- Outputs: nil
 ```
 As you can see, when a variable is accessed outside the scope it was defined in, it will have no value, which is why it's `nil`.
-The easiest way to know where a variable is located in a scope is to look at where endings are placed, such as `end` or `until`; any code past any `end` will most likely be outside that given scope.
+<br>The easiest way to know where a variable is located in a scope is to look at where endings are placed, such as `end` or `until`; any code past any `end` will most likely be outside that given scope.
 
 A feature of all variables, not just local, is being able to define multiple variables at once using commas.
 ```lua
@@ -111,12 +146,18 @@ In our second script, we're going to want to use this code:
 ```lua
 print(_G.MyFirstShared)
 ```
-We have now successfully created a variable in one script and used it in another.
-Congratulations on your first step into scripting! Here's a final task to ensure you can remember this information:
+We have now created a shared variable in one script and used it in another.
+<br>Congratulations on your first step into scripting! Here's a final task to ensure you can remember this information:
 ## Learning Task
-Create and open a script in Roblox Studio, then create a `local` variable with a name of your choice, assign its value to a string of your favorite word, and don't forget to use quotation marks (`"`) to ensure it is a string.
-<br>Now, with that local variable, use the `print` function like in the code examples, replacing `MyFirstVariable` with the variable name of your choice, and see if it prints.
-<br>If it has been printed, you have completed this course and are ready to move on to the next. If it didn't print correctly, had an error, or didn't run, you may want to read this course again.
+Here are steps to create your own variable:
+1. Create and open a script in Roblox Studio.
+2. Create a `local` variable with the name of your choice.
+3. Assign the variable you created's value to a string of your favorite word, such as "Pizza". Don't forget to use quotation marks (`"`) to ensure it is a string.
+4. Use the `print` function like in the code examples, replacing `MyFirstVariable` with the name you gave the variable, then see if it prints in the output.
+5. If it has been printed, you have completed this course and are ready to move on to the next. If it didn't print correctly, had an error, or didn't run, you may want to read this course again.
+
+Thank you for reading this course, and good luck on your scripting journey. 
 
 For any issues, questions, or concerns, feel free to join the [Roblox Studio Community Discord Server](https://discord.gg/robloxstudio) or the [HiddenDevs Discord Server](https://discord.gg/hd) and make use of their #scripting-help or #code-help discord channels.
-<br>If this course did not provide an understandable explanation, feel free to read or watch other sources, such as the [Roblox Documentation Variable Tutorial](https://create.roblox.com/docs/luau/variables) or [TheDevKing's YouTube Video on Variables](https://www.youtube.com/watch?v=0Dc2dCYoxxs).
+
+If this course did not provide an understandable explanation, feel free to read or watch other sources, such as the [Roblox Documentation on Variables](https://create.roblox.com/docs/luau/variables) or [TheDevKing's YouTube Video on Variables](https://www.youtube.com/watch?v=0Dc2dCYoxxs).
