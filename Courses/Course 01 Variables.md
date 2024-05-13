@@ -10,7 +10,6 @@ A variable is essentially a name attached to a value. There are three baseline w
 
 ## Word Contexts
 - **Values** are [strings](https://create.roblox.com/docs/luau/strings) ("A String"), [numbers](https://create.roblox.com/docs/luau/numbers) (1234), [booleans](https://create.roblox.com/docs/luau/booleans) (true/false), [data types](https://create.roblox.com/docs/reference/engine/datatypes) and more.
-- **Scopes** definition is [here](https://create.roblox.com/docs/luau/scope).
 - **Define** (in programming) means to create a variable.
 - **Compile** refers to the process of the system that handles code running.
 
