@@ -36,6 +36,8 @@ local MyFirstVariable1234 -- Good ✅
 local if -- Bad ❌, can't have a variable name be a syntax keyword.
 -- Note: The easiest way to tell if a word is a keyword is by seeing if their color differs from other variable names.
 ```
+Note: Variable names are case sensitive, and as such, if you create a variable name with `MyFirstVariable`, but access it with `myfirstvariable`, it will give you a different variable's value, or `nil` if one wasn't defined with that name.
+
 Now that we have a general idea of what variable names are good, and which are bad, let's continue with the course.
 <br>To begin assigning a value, we'll need to use the `=` sign.
 ```lua
