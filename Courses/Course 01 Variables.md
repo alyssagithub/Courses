@@ -2,7 +2,7 @@
 - Level: Beginner
 - Sections: Local Variables, Global Variables, and Shared Variables
 - Minimum Requirement: Must be able to insert a script in Roblox Studio
-- Average Reading Time: ~5 Minutes
+- Average Reading Time: ~6 Minutes
 
 A variable is essentially a name attached to a value. There are three baseline ways to define a variable, which is what this course will be explaining.
 
