@@ -55,7 +55,7 @@ local MyFirstVariable = "Hello, world!"
 print(MyFirstVariable) -- Outputs: Hello, world!
 ```
 We have now created and used our first variable. Let's try to change its value now.
-We can do this by simply using the variable name, the `=` sign, and then the new value, like we did when we defined them.
+<br>We can do this by simply using the variable name, the `=` sign, and then the new value, like we did when we defined them.
 ```lua
 local MyFirstVariable = "Hello, world!"
 print(MyFirstVariable)  -- Outputs: Hello, world!
