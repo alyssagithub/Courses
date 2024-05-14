@@ -3,7 +3,7 @@ local ScriptingCourses = {
   -- Top = easiest to learn/understand
   "Variables", -- made
   "Tables", -- making
-  "Data Types",
+  "Values & Data Types",
   "String Creation Methods",
   "String Concatenation Methods",
   "Relational & Logical Operators",
