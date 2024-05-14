@@ -24,7 +24,7 @@ local CoursesList = {
   "Replication",
   "Type Checking",
   "Metatables",
-  "Buffers (never learned these, might not teach)",
+  "Buffers", -- never learned these, might not teach
 }
 
 local ServicesList = {
