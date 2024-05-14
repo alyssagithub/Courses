@@ -3,6 +3,7 @@ local CoursesList = {
   "Variables", -- made
   "Tables",
   "Properties",
+  "Instance Attributes",
   "Functions",
   "If Statements",
   "Data types",
