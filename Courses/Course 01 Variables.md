@@ -33,6 +33,7 @@ local _MyFirstVariable -- Good ✅
 local 1MyFirstVariable -- Bad ❌: You can't have numbers at the start of a variable name.
 local 🔥MyFirstVariable -- Bad ❌: You can't have non-UTF8 characters in a variable name.
 local MyFirstVariable1234 -- Good ✅
+local MyFirst Variable -- Bad ❌: You can't have a whitespace in a variable name.
 local if -- Bad ❌: You can't have a variable name be a syntax keyword.
 -- Note: The easiest way to tell if a word is a keyword is by seeing if its color differs from other variable names.
 ```
