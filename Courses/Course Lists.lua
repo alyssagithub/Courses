@@ -4,13 +4,13 @@ local CoursesList = {
   "Variables", -- made
   "Tables", -- making
   "String Types", -- "string", 'string', [[string]], `string`
+  "String Manipulation", -- concatenation, interpolation, string.format
   "Operators", -- and, or, ==, >=, etc
   "If Statements",
   "Print Debugging",
   "Functions",
   "Properties",
   "Data Types", -- cframes, vector3/2s, udim2s
-  "String Manipulation", -- concatenation, interpolation, string.format
   "Instances",
   "Attributes",
   "Loops", -- table & numerical for loop, while loop, repeat loop
