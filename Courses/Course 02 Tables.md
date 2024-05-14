@@ -86,7 +86,7 @@ local MyFirstTable = {
 This makes the third index no longer valid, and therefore not part of the array. This will make the array appear as if there is only one index when used in practice, but you will still be able to get the value from the third index when indexing the table.
 <br>Now that we know the essentials of arrays, let's move onto dictionaries.
 ## 2. Dictionaries
-A dictionary is a table that has value based indices, unlike arrays. This means that you can have any value as an index, such as a string, number, boolean, or data type.
+A dictionary is a table that has value-based indices, unlike arrays. This means that you can have any value as an index, such as a string, number, boolean, or data type.
 <br>Let's first make an index in an empty table, we'll use the string `"Apple"`.
 ```lua
 local MyFirstTable = {
