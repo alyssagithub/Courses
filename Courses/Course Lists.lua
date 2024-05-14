@@ -4,9 +4,9 @@ local CoursesList = {
   -- Bottom = advanced, last things you'll learn
   "Variables", -- made
   "Tables", -- making
+  "Operators", -- and, or, ==, >=, etc
   "If Statements",
   "Functions",
-  "Operators",
   "Properties",
   "Data types",
   "String Manipulation",
