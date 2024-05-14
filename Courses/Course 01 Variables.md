@@ -160,6 +160,10 @@ Let's create a variable.
 4. Use the `print` function like in the code examples, replacing `MyFirstVariable` with the name you gave the variable, and then see if it prints in the output.
 5. If it prints, you have completed this course and are ready to move on to the next. If it didn't print correctly, had an error, or didn't run, try reading this course again.
 
+## Optimizations
+1. Variables generally should only be used when there is a value being used more than once.
+
+## Closing Statement
 Thank you for reading this course, and good luck on your scripting journey. 
 
 For any issues, questions, or concerns, you can join the [Roblox Studio Community Discord Server](https://discord.gg/robloxstudio) or the [HiddenDevs Discord Server](https://discord.gg/hd) and make use of their #scripting-help or #code-help discord channels.
