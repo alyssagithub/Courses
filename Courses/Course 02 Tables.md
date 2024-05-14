@@ -89,6 +89,23 @@ local MyFirstTable = {
 }
 ```
 This makes the third index no longer valid and therefore not part of the array. This will make the array appear as if there is only one index when used, but you will still be able to get the value from the third index when indexing the table.
+<br>With that out of the way, let's see how we can add a new value to the table without it starting with that value.
+```lua
+local MyFirstTable = {
+    [1] = "Hello, world!"
+}
+
+print(MyFirstTable[2]) -- Outputs: nil
+```
+This is because we never added the second index into the table, lets try adding it after the table was already made. We can do this by mimicing how we changed an already-existing index's value.
+```lua
+local MyFirstTable = {
+    [1] = "Hello, world!"
+}
+
+MyFirstTable[2] = "Goodbye, world!"
+print(MyFirstTable[2]) -- Outputs: Goodbye, world!
+```
 <br>Now that we know the essentials of arrays, let's move on to dictionaries.
 ## 2. Dictionaries
 A dictionary is a table that has value-based indices, unlike arrays. This means that you can have any value as an index, such as a string, number, boolean, or data type.
