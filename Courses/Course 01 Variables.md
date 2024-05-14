@@ -2,7 +2,7 @@
 - Level: Beginner
 - Sections: Local Variables, Global Variables, and Shared Variables
 - Minimum Requirement: Must be able to insert a script in Roblox Studio
-- Average Reading Time: ~6 Minutes
+- Estimated Reading Time: ~6 Minutes
 
 A variable is essentially a name attached to a value. There are three baseline ways to define a variable, which is what this course will be explaining.
 
@@ -152,7 +152,7 @@ print(_G.MyFirstShared)
 We have now created a shared variable in one script and used it in another.
 <br>Congratulations on your first step into scripting! Here's a final task to ensure you can remember this information:
 ## Learning Task
-Here are the steps to create a variable:
+Let's create a variable.
 1. Create and open a script in Roblox Studio.
 2. Create a `local` variable with the name of your choice.
 3. Assign the variable you created's value to a string of your favorite word, such as "pizza." Don't forget to use quotation marks (`"`) to ensure it is a string.
