@@ -1,5 +1,5 @@
 -- This file is just for managing what courses go in what order, don't mind it
-local CoursesList = {
+local Courses = {
   -- Top = easiest to learn/understand
   "Variables", -- made
   "Tables", -- making
@@ -27,7 +27,7 @@ local CoursesList = {
   "Metatables & OOP",
 }
 
-local ServicesList = {
+local Services = {
   -- Top = easiest to learn/understand
   "Debris",
   "Players",
