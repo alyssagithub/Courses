@@ -13,7 +13,7 @@ local CoursesList = {
   "Data Types", -- cframes, vector3/2s, udim2s
   "Instances",
   "Attributes",
-  "Loops", -- table & numerical for loop, while loop, repeat loop
+  "Loops", -- table & numerical for loop, while loop, repeat loop, function recursion
   "Ternary Operations", -- var and var2 or var3, if var then var2 else var3
   "Debounce",
   "Yielding", -- task.wait()
