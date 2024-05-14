@@ -18,6 +18,11 @@ local MyFirstTable = {}
 ```
 Once we've done that, we will give it an index, first we'll start with `1` to ensure it's an array.
 ```lua
+--                   {[Index] = Value}
+local MyFirstTable = {[1] = "Hello, world!"}
+```
+Now, we're going to indent the table so it's easier to read the contents of it.
+```lua
 local MyFirstTable = {
     -- [Index] = Value
     [1] = "Hello, world!"
