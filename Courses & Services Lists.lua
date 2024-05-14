@@ -1,5 +1,5 @@
 -- This file is just for managing what courses go in what order, don't mind it
-local Courses = {
+local ScriptingCourses = {
   -- Top = easiest to learn/understand
   "Variables", -- made
   "Tables", -- making
