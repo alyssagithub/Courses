@@ -8,7 +8,7 @@ local CoursesList = {
   "Operators", -- and, or, ==, >=, etc
   "If Statements",
   "Print Debugging",
-  "Functions",
+  "Functions", -- return
   "Properties",
   "Data Types", -- cframes, vector3/2s, udim2s
   "Instances",
@@ -20,12 +20,12 @@ local CoursesList = {
   "Threads",
   "RBXScriptSignals", -- :connect(), :once(), :wait(), connection:disconnect()
   "Protected Calls", -- pcall, xpcall, ypcall
-  "Module Scripts",
+  "Module Scripts", -- self, methods
   "Remotes & Bindables",
   "Raycasting",
   "Spatial Query", -- getpartsinpart
   "Type Checking", -- export type, type, normal usage
-  "Metatables", -- self, methods, oop
+  "Metatables", -- oop
   "Buffers", -- never learned, might not teach
 }
 
