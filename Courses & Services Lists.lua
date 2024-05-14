@@ -3,7 +3,7 @@ local Courses = {
   -- Top = easiest to learn/understand
   "Variables", -- made
   "Tables", -- making
-  "Ways to Create Strings",
+  "String Creation Methods",
   "String Concatenation Methods",
   "Relational & Logical Operators",
   "If Statements",
