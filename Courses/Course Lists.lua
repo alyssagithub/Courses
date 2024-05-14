@@ -14,12 +14,12 @@ local CoursesList = {
   "Instances",
   "Attributes",
   "Loops", -- table & numerical for loop, while loop, repeat loop, function recursion
-  "Ternary Operations", -- var and var2 or var3, if var then var2 else var3
+  "Ternary Operations", -- normal ternary, if ternary
   "Debounce",
   "Yielding", -- task.wait()
   "Threads",
   "RBXScriptSignals", -- :connect(), :once(), :wait(), connection:disconnect()
-  "Protected Calls", -- pcall, xpcall, ypcall
+  "Protected Calls", -- pcall, xpcall
   "Module Scripts", -- self, methods
   "Remotes & Bindables",
   "Raycasting",
