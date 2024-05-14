@@ -3,30 +3,28 @@ local CoursesList = {
   -- Top = easiest to learn/understand
   "Variables", -- made
   "Tables", -- making
-  "String Types", -- "string", 'string', [[string]], `string`
-  "String Manipulation", -- concatenation, interpolation, string.format
-  "Operators", -- and, or, ==, >=, etc
+  "Ways to Create Strings",
+  "String Concatenation Methods",
+  "Relational & Logical Operators",
   "If Statements",
   "Print Debugging",
-  "Functions", -- return
+  "Functions & Returning",
   "Properties",
-  "Data Types", -- cframes, vector3/2s, udim2s
   "Instances",
   "Attributes",
-  "Loops", -- table & numerical for loop, while loop, repeat loop, function recursion
-  "Ternary Operations", -- normal ternary, if ternary
+  "Loops & Iterating",
+  "Ternary Operations",
   "Debounce",
-  "Yielding", -- task.wait()
+  "Yielding",
   "Threads",
-  "RBXScriptSignals", -- :connect(), :once(), :wait(), connection:disconnect()
-  "Protected Calls", -- pcall, xpcall
-  "Module Scripts", -- self, methods
+  "RBXScriptSignals & Connections",
+  "Protected Calls",
+  "Module Scripts",
   "Remotes & Bindables",
   "Raycasting",
-  "Spatial Query", -- getpartsinpart
-  "Type Checking", -- export type, type, normal usage
-  "Metatables", -- oop
-  "Buffers", -- never learned, might not teach
+  "Spatial Querying",
+  "Type Checking",
+  "Metatables & OOP",
 }
 
 local ServicesList = {
