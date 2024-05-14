@@ -3,6 +3,7 @@ local CoursesList = {
   -- Top = easiest to learn/understand
   "Variables", -- made
   "Tables", -- making
+  "String Types", -- "string", 'string', [[string]], `string`
   "Operators", -- and, or, ==, >=, etc
   "If Statements",
   "Print Debugging",
