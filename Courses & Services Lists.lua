@@ -3,20 +3,20 @@ local ScriptingCourses = {
   -- Top = easiest to learn/understand
   "Variables", -- made
   "Tables", -- making
-  "Values & Data Types",
-  "String Creation Methods",
-  "String Concatenation Methods",
-  "Relational & Logical Operators",
-  "If Statements",
+  "Values & Data Types", -- Strings, Numbers, Booleans, CFrame, Vectors, UDim2
+  "String Creation Methods", -- "Quotes", 'Apostrophes', `Backticks`, [[Brackets]]
+  "String Concatenation Methods", -- Concatenation, Interpolation, Formatting
+  "Loops & Iterating", -- For, While, Repeat
+  "Functions", -- Recursion, Returning, Parameters
+  "Operators", -- Logical, Relational, Arithmetic, Compound
+  "If Statements", -- If, Elseif, Else
   "Print Debugging",
-  "Functions & Returning",
   "Instances",
   "Properties",
-  "Attributes",
-  "Loops & Iterating",
-  "Ternary Operations",
+  "Attributes", -- SetAttribute, GetAttribute, Deletion
+  "Ternary Operations", -- Expression, Operation, Usage
   "Yielding",
-  "Debounce",
+  "Debounce", -- Boolean, Table, Numerical
   "Threads",
   "RBXScriptSignals & Connections",
   "Protected Calls",
