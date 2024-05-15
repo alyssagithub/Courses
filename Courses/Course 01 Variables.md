@@ -5,6 +5,7 @@
 - Estimated Reading Time: ~6 Minutes
 
 A variable is essentially a name attached to a value. There are three baseline ways to define a variable, which is what this course will be explaining.
+<br>Depending on the value, a variable can also act as a reference, like a shortcut.
 
 **Note:** Before we learn about variables, to see the output messages caused by `print`, you will need to go into the "VIEW" tab in Roblox Studio (located around the top left) and then click on the "Output" button to enable the output.
 
