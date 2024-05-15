@@ -4,7 +4,7 @@ local ScriptingCourses = {
   "Variables", -- made
   "Tables", -- making
   "Values & Data Types", -- Strings, Numbers, Booleans, CFrame, Vectors, UDim2
-  "String Creation Methods", -- "Quotes", 'Apostrophes', `Backticks`, [[Brackets]]
+  "String Creation Methods", -- Quotes, Apostrophes, Backticks, Brackets
   "String Concatenation Methods", -- Concatenation, Interpolation, Formatting
   "Loops & Iterating", -- For, While, Repeat
   "Functions", -- Recursion, Returning, Parameters
