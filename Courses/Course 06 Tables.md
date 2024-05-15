@@ -1,4 +1,4 @@
-# Course #0: Tables
+# Course #6: Tables
 - Level: Beginner
 - Sections: Arrays, Dictionaries, Mixed, Length, and Iterating
 - Minimum Requirement: Must Know [Variables](https://github.com/alyssagithub/Roblox-Scripting-School/blob/main/Courses/Course%2001%20Variables.md)
@@ -6,7 +6,7 @@
 
 A table is essentially a value that allows you to store other values, similar to how variables are. This course will teach you how to construct and use tables.
 
-## Word Definitions
+## Word Dictionary
 - **Indices:** plural of index; indexes.
 - **Indexing:** To get the value of an index from a table.
 
