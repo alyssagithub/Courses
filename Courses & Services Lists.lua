@@ -21,7 +21,7 @@ local ScriptingCourses = {
   "RBXScriptSignals & Connections",
   "Protected Calls",
   "Module Scripts",
-  "Remotes & Bindables",
+  "Remotes & Bindables", -- RemoteEvents, RemoteFunctions, BindableEvents, BindableFunctions
   "Sanity Checks",
   "Raycasting",
   "Spatial Querying",
