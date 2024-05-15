@@ -1,15 +1,15 @@
 -- This file is just for managing what courses go in what order, don't mind it
 local ScriptingCourses = {
   -- Top = easiest to learn/understand
-  "Variables", -- made
-  "Tables", -- making
+  "Variables", -- Made: Local, Global, Shared
+  "Operators", -- Logical, Relational, Arithmetic, Compound
+  "If Statements", -- If, Elseif, Else
+  "Functions", -- Recursion, Returning, Parameters
+  "Loops", -- For, While, Repeat
+  "Tables", -- Arrays, Dictionaries, Length, Iterating
   "Values & Data Types", -- Strings, Numbers, Booleans, CFrame, Vectors, UDim2
   "String Creation Methods", -- Quotes, Apostrophes, Backticks, Brackets
   "String Concatenation Methods", -- Concatenation, Interpolation, Formatting
-  "Loops & Iterating", -- For, While, Repeat
-  "Functions", -- Recursion, Returning, Parameters
-  "Operators", -- Logical, Relational, Arithmetic, Compound
-  "If Statements", -- If, Elseif, Else
   "Print Debugging",
   "Instances", -- Hierarchy, Classes, Inheritance
   "Properties",
