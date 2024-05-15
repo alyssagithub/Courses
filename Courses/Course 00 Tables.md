@@ -1,6 +1,6 @@
 # Course #0: Tables
 - Level: Beginner
-- Sections: Arrays, Dictionaries, Mixed, and Length
+- Sections: Arrays, Dictionaries, Mixed, Length, and Iterating
 - Minimum Requirement: Must Know [Variables](https://github.com/alyssagithub/Roblox-Scripting-School/blob/main/Courses/Course%2001%20Variables.md)
 - Estimated Reading Time: ~6 Minutes
 
@@ -199,6 +199,8 @@ local MyFirstTable = {
 local Length = #MyFirstTable
 print(Length) -- Outputs: 2
 ```
+## 5. Iterating
+Using a `for` loop, we can iterate through tables.
 <br>That will conclude the explanations of this course. There is a learning task below to ensure you process and understand this information.
 ## Learning Task
 Let's create an array.
