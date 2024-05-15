@@ -8,10 +8,11 @@ A variable is essentially a name attached to a value. There are three baseline w
 
 **Note:** Before we learn about variables, to see the output messages caused by `print`, you will need to go into the "VIEW" tab in Roblox Studio (located around the top left) and then click on the "Output" button to enable the output.
 
-## Word Contexts
-- **Values** are [strings](https://create.roblox.com/docs/luau/strings) ("A String"), [numbers](https://create.roblox.com/docs/luau/numbers) (1234), [booleans](https://create.roblox.com/docs/luau/booleans) (true/false), [data types](https://create.roblox.com/docs/reference/engine/datatypes) and more.
-- **Define** (in programming) means to create a variable.
-- **Compile** refers to the process of the system that handles code running.
+## Word Definitions
+- **Values:** [strings](https://create.roblox.com/docs/luau/strings) ("A String"), [numbers](https://create.roblox.com/docs/luau/numbers) (1234), [booleans](https://create.roblox.com/docs/luau/booleans) (true/false), [data types](https://create.roblox.com/docs/reference/engine/datatypes) and more.
+- **Define:** (in programming) to create a variable.
+- **Compiler:** the system that handles how the code runs.
+- **Compile:** the process of the compiler.
 
 ## 1. Local Variables
 A local variable is a variable that is only available in the [scope](https://create.roblox.com/docs/luau/scope) it's defined in.
