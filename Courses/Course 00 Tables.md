@@ -1,4 +1,4 @@
-# Course #2: Tables
+# Course #0: Tables
 - Level: Beginner
 - Sections: Arrays, Dictionaries, Mixed, and Length
 - Minimum Requirement: Must Know [Variables](https://github.com/alyssagithub/Roblox-Scripting-School/blob/main/Courses/Course%2001%20Variables.md)
