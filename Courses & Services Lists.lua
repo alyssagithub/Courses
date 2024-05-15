@@ -11,7 +11,7 @@ local ScriptingCourses = {
   "Operators", -- Logical, Relational, Arithmetic, Compound
   "If Statements", -- If, Elseif, Else
   "Print Debugging",
-  "Instances",
+  "Instances", -- Hierarchy, Classes, Inheritance
   "Properties",
   "Attributes", -- SetAttribute, GetAttribute, Deletion
   "Ternary Operations", -- Expression, Operation, Usage
@@ -25,7 +25,7 @@ local ScriptingCourses = {
   "Sanity Checks",
   "Raycasting",
   "Spatial Querying",
-  "Type Checking",
+  "Type Checking", -- Typechecking, Creation, Export, Strict
   "Metatables & OOP",
 }
 
