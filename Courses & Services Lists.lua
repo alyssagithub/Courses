@@ -3,10 +3,10 @@ local ScriptingCourses = {
   -- Top = easiest to learn/understand
   "Variables", -- Made: Local, Global, Shared
   "Operators", -- Logical, Relational, Arithmetic, Compound
-  "If Statements", -- If, Elseif, Else
+  "If Statements", -- If, Else, Elseif
   "Functions", -- Recursion, Returning, Parameters
   "Loops", -- For, While, Repeat
-  "Tables", -- Arrays, Dictionaries, Length, Iterating
+  "Tables", -- Almost Made: Arrays, Dictionaries, Length, Iterating
   "Values & Data Types", -- Strings, Numbers, Booleans, CFrame, Vectors, UDim2
   "String Creation Methods", -- Quotes, Apostrophes, Backticks, Brackets
   "String Concatenation Methods", -- Concatenation, Interpolation, Formatting
