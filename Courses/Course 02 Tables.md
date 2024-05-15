@@ -211,6 +211,10 @@ Let's create an array.
 7. Indexing the table, print out the first index value.
 8. If it prints, you have completed this course and are ready to move on to the next. If it didn't print correctly, had an error, or didn't run, try reading this course again.
 
+## Optimizations
+1. Placeholder
+
+## Closing Statement
 Thank you for reading this course, and good luck on your scripting journey. 
 
 For any issues, questions, or concerns, you can join the [Roblox Studio Community Discord Server](https://discord.gg/robloxstudio) or the [HiddenDevs Discord Server](https://discord.gg/hd) and make use of their #scripting-help or #code-help discord channels.
