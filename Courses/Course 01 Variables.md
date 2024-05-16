@@ -1,6 +1,6 @@
 # Course #1: Variables
 - Level: Beginner
-- Sections: Local Variables, Global Variables, Shared Variables, and Values
+- Sections: Local Variables, Global Variables, and Shared Variables
 - Minimum Requirement: Must be able to insert a script in Roblox Studio
 - Estimated Reading Time: ~6 Minutes
 
@@ -153,28 +153,6 @@ In our second script, we're going to want to use this code:
 print(_G.MyFirstShared)
 ```
 We have now created a shared variable in one script and used it in another.
-## 4. Values
-You can use many different types of values in a variable, such as a string, number, or boolean. I will be showing you examples of the listed three.
-<br>Let's start with a string.
-```lua
-local String = "Hello, world!" -- Strings are typically words wrapped in "quotes", 'apostraphes', `backticks`, or [[brackets]]
-print(String) -- Outputs: Hello, world!
-```
-A number.
-```lua
-local Number = 5 -- When wrapped in quotes, apostraphes, backticks, or brackets, it will be considered a string and not a number.
-print(Number) -- Outputs: 5
-```
-Booleans, starting with `true`.
-```lua
-local Boolean = true
-print(Boolean) -- Outputs: true
-```
-Another boolean, this time being `false`, `true`'s opposite.
-```lua
-local Boolean = false
-print(Boolean) -- Outputs: false
-```
 <br>Congratulations on your first step into scripting! Here's a final task to ensure you can remember this information:
 ## Learning Task
 Let's create a variable.
@@ -187,26 +165,33 @@ Let's create a variable.
 ## Optimizations
 Variables generally should only be used when there is a value being used more than once, for example:
 ```lua
--- Bad ❌: Uses 5 twice for the same purpose, should be put in a variable.
-print(5)
-print(5)
+-- Bad ❌: Uses "Hello" twice for the same purpose, should be put in a variable.
+print("Hello")
+print("Hello")
 
 -- Good ✅
-local Five = 5
-print(Five)
-print(Five)
+local Hello = "Hello"
+print(Hello)
+print(Hello)
 ```
 Avoid redundant variables, meaning variables that are defined but never used.
 ```lua
--- Bad ❌: Y isnt being used here despite being defined, so it should be removed or used.
-local x = 10
-local y = 5
-local z = x + 20
+-- Bad ❌: C isnt being used here despite being defined, so it should be removed or used.
+local A = "A"
+local B = "B"
+local C = "C"
+
+print(A)
+print(B)
 
 -- Good ✅
-local x = 10
-lcoal y = 20
-local z = x + y
+local A = "A"
+local B = "B"
+local C = "C"
+
+print(A)
+print(B)
+print(C)
 ```
 ## Closing Statement
 Thank you for reading this course, and good luck on your scripting journey. 
