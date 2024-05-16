@@ -16,7 +16,7 @@ local ScriptingCourses = {
   "Attributes", -- SetAttribute, GetAttribute, Deletion
   "Ternary Operations", -- Expression, Operation, Usage
   "Yielding",
-  "Debounce", -- Boolean, Table, Numerical
+  "Debounce", -- Boolean, Table, Numerical, Time-Based
   "Threads",
   "RBXScriptSignals & Connections",
   "Protected Calls",
