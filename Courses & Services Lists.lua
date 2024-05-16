@@ -2,7 +2,7 @@
 local ScriptingCourses = {
   -- Top = easiest to learn/understand
   "Variables", -- Made: Local, Global, Shared
-  "Operators", -- Logical, Relational, Arithmetic, Compound
+  "Operators", -- Arithmetic, Logical, Relational, Compound
   "If Statements", -- If, Else, Elseif
   "Functions", -- Recursion, Returning, Parameters
   "Loops", -- For, While, Repeat
