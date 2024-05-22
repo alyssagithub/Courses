@@ -2,7 +2,7 @@
 - Level: Beginner
 - Sections: Logical Operators, Relational Operators, Arithmetic Operators, and Compound Assignment Operators
 - Minimum Requirement: Must Know [Variables](https://github.com/alyssagithub/Roblox-Scripting-School/blob/main/Courses/Course%2001%20Variables.md)
-- Estimated Reading Time: ~0 Minutes
+- Estimated Reading Time: ~6 Minutes
 
 Operators are signs used to get, compare, or set a value.
 
