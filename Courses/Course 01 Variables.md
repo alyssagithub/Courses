@@ -139,7 +139,7 @@ print(MyFirstGlobal) -- Outputs: Hello, world!
 ```
 We have now successfully learned global variables; we will move on to our third and final explanation.
 ## 3. Shared Variables
-A shared variable is closest to the global variables, but you can access them across two different scripts.
+A shared variable is closest to the global variables, but you can access them across different scripts.
 <br>There are two ways to access and create a shared variable: using `_G` and using `shared`. I will show you the first method, but if you'd like to use the second, you can simply replace all `_G` usage in the code with `shared`.
 
 Let's create our first shared variable. We'll need two scripts to test this one properly, so make sure you're prepared.
